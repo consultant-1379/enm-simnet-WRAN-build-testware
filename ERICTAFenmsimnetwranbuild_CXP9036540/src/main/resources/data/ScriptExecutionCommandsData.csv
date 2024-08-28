@@ -1,0 +1,2 @@
+command,expectedExitCode
+/netsim/enm-simnet-WRAN-build-testware/ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/triggerBuild.sh ,0

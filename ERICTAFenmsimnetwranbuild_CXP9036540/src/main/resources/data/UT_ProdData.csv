@@ -1,0 +1,3 @@
+command,expectedExitCode
+/var/simnet/enm-simnet-WRAN-build-testware/ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/unit_tests/CheckProductData.sh ,0
+

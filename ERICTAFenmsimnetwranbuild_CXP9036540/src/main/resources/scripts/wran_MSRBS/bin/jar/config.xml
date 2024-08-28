@@ -1,0 +1,154 @@
+<wran>
+
+	<PLMN>
+		<W1>
+			<MCC>46</MCC>
+			<MNC>6</MNC>
+			<MNC_LENGTH>2</MNC_LENGTH>
+		</W1>
+	</PLMN>
+
+	<build>true</build>
+	<MOFILE>true</MOFILE>
+	<NETCONFREPORT>off</NETCONFREPORT>
+	<SERIALIZEBUILD>off</SERIALIZEBUILD>
+
+	<!--area distribution for cells -->
+	<areasDist>
+                <value startRnc="1" endRnc="19" share="95">
+                </value>
+                <value startRnc="20" endRnc="25" share="111">
+                </value>
+	</areasDist>
+
+	<NETWORK_SIZE>5000</NETWORK_SIZE>
+<TOTAL_UTRAN_RELATION>216250</TOTAL_UTRAN_RELATION>
+<AVG_UTRAN_RELATION>43.25</AVG_UTRAN_RELATION>
+	<PERC_INTRA_RELATION>66</PERC_INTRA_RELATION>
+	<PERC_INTER_RELATION>22</PERC_INTER_RELATION>
+	<PERC_EXT_RELATION>12</PERC_EXT_RELATION>
+	<PERC_GSM_RELATION>33</PERC_GSM_RELATION>
+
+
+	<IntraRelationDistribution>
+               <value startRnc="1" endRnc="20" numOfRel="25"> 
+                </value>
+	</IntraRelationDistribution>
+
+	<W1.RNCTYPE>
+                
+                <TYPE startRnc="1" endRnc="1" numOfRBS="23">
+                        <RBS cell1="2" cell2="0" cell3="20" cell6="0" cell9="1" cell12="0"></RBS>
+                </TYPE>
+                
+               <TYPE startRnc="2" endRnc="2" numOfRBS="33">
+                        <RBS cell1="2" cell2="0" cell3="30" cell6="0" cell9="1" cell12="0"></RBS>
+                </TYPE>
+                 
+				<TYPE startRnc="3" endRnc="3" numOfRBS="0" numOfMSRBS="56"> 
+				 
+			    <RBS mcell3="56" cell1="0" cell3="0" cell6="0" cell9="0" cell12="0"></RBS>
+		
+		        </TYPE>
+				
+				<TYPE startRnc="4" endRnc="11" numOfRBS="0" numOfPRBS="2">
+				
+			    <RBS pcell1="2" cell1="0" cell3="0" cell6="0" cell9="0" cell12="0"></RBS>
+			
+		        </TYPE>
+				
+				<TYPE startRnc="23" endRnc="23" numOfRBS="0" numOfMSRBS="2">
+                
+				<RBS  pcell1="0" mcell1="0" mcell3="2" cell6="0" cell9="0" cell12="0"></RBS>
+
+				</TYPE>
+				
+				 <TYPE startRnc="24" endRnc="24" numOfRBS="2" numOfPRBS="0">
+                
+				<RBS  pcell1="0" cell1="0" cell3="1" cell6="0" cell9="1" cell12="0"></RBS>
+
+				</TYPE>
+				
+				<TYPE startRnc="25" endRnc="26" numOfRBS="0" numOfMSRBS="2">
+                
+				<RBS  pcell1="0" mcell1="2" cell3="0" cell6="0" cell9="0" cell12="0"></RBS>
+
+				</TYPE>
+				
+	</W1.RNCTYPE>
+
+	<RNCNODEVERSION>
+                <value version="N" startRnc="21" endRnc="39"></value>
+                <value version="N" startRnc="95" endRnc="109"></value>
+	</RNCNODEVERSION>
+	
+	<RBSNODEVERSION>			
+ 		<value version="U.1.50" startRnc="1" endRnc="26"></value> 
+		<value version="S2.1.150" startRnc="27" endRnc="39"></value>
+		<value version="S2.1.100" startRnc="40" endRnc="69"></value>
+		<value version="T.1.71" startRnc="70" endRnc="76"></value>
+		<value version="S2.1.100" startRnc="77" endRnc="94"></value>
+		<value version="S2.1.6" startRnc="95" endRnc="96"></value>
+		<value version="S2.1.6" startRnc="95" endRnc="96"></value>
+		<value version="T.1.160" startRnc="97" endRnc="101"></value>
+		<value version="S2.1.100" startRnc="102" endRnc="103"></value>
+		<value version="T.1.180" startRnc="104" endRnc="104"></value>
+		<value version="T.1.160" startRnc="105" endRnc="106"></value>
+		<value version="T.1.180" startRnc="107" endRnc="107"></value>
+		<value version="S2.1.100" startRnc="108" endRnc="108"></value>
+		<value version="T.1.180" startRnc="109" endRnc="109"></value>
+	</RBSNODEVERSION>
+	
+	<!-- To add new version end with ".*". This means zero to many 
+		 Only star will not work-->
+	<COMBINEDCELL>
+		<PERCENTAGE>5</PERCENTAGE>
+		<SUPPORTEDVERSIONS>
+			<VERSION>T.1.1.*</VERSION>
+			<VERSION>U.*</VERSION>
+		</SUPPORTEDVERSIONS>
+	</COMBINEDCELL>
+
+	<RNCRELATION>
+		<value rncNumber="109" volume="300000"></value>
+	</RNCRELATION>
+
+	<RNCINPOOL feature="off">
+		<POOL members="3,4" cluster="1"></POOL>
+                <POOL members="1,2" cluster="2"></POOL>
+	</RNCINPOOL>
+
+	<anrList>
+		<nodeVersion>N</nodeVersion>
+		<totalPercentage>10</totalPercentage>
+		<breakdown percentage="5" range="8-16"></breakdown>
+		<breakdown percentage="15" range="3-7"></breakdown>
+		<breakdown percentage="80" range="1-2"></breakdown>
+	</anrList>
+
+	<GsmIrathom>
+		<MCC>46</MCC>
+		<MNC>4</MNC>
+		<MNC_LENGTH>2</MNC_LENGTH>
+		<DATAFILE>file.csv</DATAFILE>
+		<MASTERCELLS>1000</MASTERCELLS>
+		<PROXYCELLS>2000</PROXYCELLS>
+		<RELATIONCOUNT>1155000</RELATIONCOUNT>
+		<HANDOVERFILE>on</HANDOVERFILE>
+	</GsmIrathom>
+
+	<lteEnabled>true</lteEnabled>
+	<LTEDATAFILE>PublicIrathomLTE2WRAN.csv</LTEDATAFILE>
+ <DotCell>
+<value startRnc="34" endRnc="36" rbsStart="1" rbsEnd="5" auType="IRU">
+                </value>
+
+    </DotCell>
+
+<MicroRbs>
+    	
+    	<value startRnc="38" endRnc="42" rbsStart="1" rbsEnd="5"> </value>
+    	
+    </MicroRbs>
+</wran>
+

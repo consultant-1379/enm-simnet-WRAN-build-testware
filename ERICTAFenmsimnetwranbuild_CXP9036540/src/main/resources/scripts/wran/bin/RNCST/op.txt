@@ -1,0 +1,4803 @@
+//..../aOut1020createExtGsmCell_s.sh:RNC07 script started running at Thu Oct 27 06:17:13 IST 2016
+//
+//RNC07 has the following ExternalGsmNetworks
+// :: ExternalGsmNetwork=4 ; mcc=46, mnc=4, mncLength=2
+//..../aOut1020createExtGsmCell_s.sh:RNC07 MAKING MO SCRIPT started running at Thu Oct 27 06:17:13 IST 2016
+//
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1"
+ identity 4
+ moType ExternalGsmNetwork
+ exception none
+ nrOfAttributes 3
+   mcc Integer 46
+   mnc Integer 4
+   mncLength Integer 2
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1801
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 9
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 51
+ bandIndicator Integer 2
+ ExternalGsmCellId String F400194
+ userLabel String ExternalGsmCell-1801
+ cellIdentity Integer 1801
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1802
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 9
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 54
+ bandIndicator Integer 2
+ ExternalGsmCellId String F400195
+ userLabel String ExternalGsmCell-1802
+ cellIdentity Integer 1802
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1803
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 9
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 57
+ bandIndicator Integer 2
+ ExternalGsmCellId String F400196
+ userLabel String ExternalGsmCell-1803
+ cellIdentity Integer 1803
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1804
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 9
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 60
+ bandIndicator Integer 2
+ ExternalGsmCellId String F400197
+ userLabel String ExternalGsmCell-1804
+ cellIdentity Integer 1804
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1805
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 9
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 63
+ bandIndicator Integer 2
+ ExternalGsmCellId String F400198
+ userLabel String ExternalGsmCell-1805
+ cellIdentity Integer 1805
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1806
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 9
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 66
+ bandIndicator Integer 2
+ ExternalGsmCellId String F400199
+ userLabel String ExternalGsmCell-1806
+ cellIdentity Integer 1806
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1807
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 69
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401000
+ userLabel String ExternalGsmCell-1807
+ cellIdentity Integer 1807
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1808
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 72
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401001
+ userLabel String ExternalGsmCell-1808
+ cellIdentity Integer 1808
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1809
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 75
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401002
+ userLabel String ExternalGsmCell-1809
+ cellIdentity Integer 1809
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1810
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 78
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401003
+ userLabel String ExternalGsmCell-1810
+ cellIdentity Integer 1810
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1811
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 81
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401004
+ userLabel String ExternalGsmCell-1811
+ cellIdentity Integer 1811
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1812
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 84
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401005
+ userLabel String ExternalGsmCell-1812
+ cellIdentity Integer 1812
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1813
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 87
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401006
+ userLabel String ExternalGsmCell-1813
+ cellIdentity Integer 1813
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1814
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 90
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401007
+ userLabel String ExternalGsmCell-1814
+ cellIdentity Integer 1814
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1815
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 93
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401008
+ userLabel String ExternalGsmCell-1815
+ cellIdentity Integer 1815
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1816
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 96
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401009
+ userLabel String ExternalGsmCell-1816
+ cellIdentity Integer 1816
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1817
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 99
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401010
+ userLabel String ExternalGsmCell-1817
+ cellIdentity Integer 1817
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1818
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 102
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401011
+ userLabel String ExternalGsmCell-1818
+ cellIdentity Integer 1818
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1819
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 105
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401012
+ userLabel String ExternalGsmCell-1819
+ cellIdentity Integer 1819
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1820
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 108
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401013
+ userLabel String ExternalGsmCell-1820
+ cellIdentity Integer 1820
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1821
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 111
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401014
+ userLabel String ExternalGsmCell-1821
+ cellIdentity Integer 1821
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1822
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 114
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401015
+ userLabel String ExternalGsmCell-1822
+ cellIdentity Integer 1822
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1823
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 117
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401016
+ userLabel String ExternalGsmCell-1823
+ cellIdentity Integer 1823
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1824
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 120
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401017
+ userLabel String ExternalGsmCell-1824
+ cellIdentity Integer 1824
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1825
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 123
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401018
+ userLabel String ExternalGsmCell-1825
+ cellIdentity Integer 1825
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1826
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 2
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401019
+ userLabel String ExternalGsmCell-1826
+ cellIdentity Integer 1826
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1827
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 5
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401020
+ userLabel String ExternalGsmCell-1827
+ cellIdentity Integer 1827
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1828
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 8
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401021
+ userLabel String ExternalGsmCell-1828
+ cellIdentity Integer 1828
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1829
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 11
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401022
+ userLabel String ExternalGsmCell-1829
+ cellIdentity Integer 1829
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1830
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 14
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401023
+ userLabel String ExternalGsmCell-1830
+ cellIdentity Integer 1830
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1831
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 17
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401024
+ userLabel String ExternalGsmCell-1831
+ cellIdentity Integer 1831
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1832
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 20
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401025
+ userLabel String ExternalGsmCell-1832
+ cellIdentity Integer 1832
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1833
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 23
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401026
+ userLabel String ExternalGsmCell-1833
+ cellIdentity Integer 1833
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1834
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 26
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401027
+ userLabel String ExternalGsmCell-1834
+ cellIdentity Integer 1834
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1835
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 29
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401028
+ userLabel String ExternalGsmCell-1835
+ cellIdentity Integer 1835
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1836
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 32
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401029
+ userLabel String ExternalGsmCell-1836
+ cellIdentity Integer 1836
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1837
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 35
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401030
+ userLabel String ExternalGsmCell-1837
+ cellIdentity Integer 1837
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1838
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 38
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401031
+ userLabel String ExternalGsmCell-1838
+ cellIdentity Integer 1838
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1839
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 41
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401032
+ userLabel String ExternalGsmCell-1839
+ cellIdentity Integer 1839
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1840
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 44
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401033
+ userLabel String ExternalGsmCell-1840
+ cellIdentity Integer 1840
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1841
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 47
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401034
+ userLabel String ExternalGsmCell-1841
+ cellIdentity Integer 1841
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1842
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 50
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401035
+ userLabel String ExternalGsmCell-1842
+ cellIdentity Integer 1842
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1843
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 53
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401036
+ userLabel String ExternalGsmCell-1843
+ cellIdentity Integer 1843
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1844
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 56
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401037
+ userLabel String ExternalGsmCell-1844
+ cellIdentity Integer 1844
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1845
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 59
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401038
+ userLabel String ExternalGsmCell-1845
+ cellIdentity Integer 1845
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1846
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 62
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401039
+ userLabel String ExternalGsmCell-1846
+ cellIdentity Integer 1846
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1847
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 65
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401040
+ userLabel String ExternalGsmCell-1847
+ cellIdentity Integer 1847
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1848
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 68
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401041
+ userLabel String ExternalGsmCell-1848
+ cellIdentity Integer 1848
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1849
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 71
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401042
+ userLabel String ExternalGsmCell-1849
+ cellIdentity Integer 1849
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1850
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 74
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401043
+ userLabel String ExternalGsmCell-1850
+ cellIdentity Integer 1850
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1851
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 77
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401044
+ userLabel String ExternalGsmCell-1851
+ cellIdentity Integer 1851
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1852
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 80
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401045
+ userLabel String ExternalGsmCell-1852
+ cellIdentity Integer 1852
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1853
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 83
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401046
+ userLabel String ExternalGsmCell-1853
+ cellIdentity Integer 1853
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1854
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 86
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401047
+ userLabel String ExternalGsmCell-1854
+ cellIdentity Integer 1854
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1855
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 89
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401048
+ userLabel String ExternalGsmCell-1855
+ cellIdentity Integer 1855
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1856
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 92
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401049
+ userLabel String ExternalGsmCell-1856
+ cellIdentity Integer 1856
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1857
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 95
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401050
+ userLabel String ExternalGsmCell-1857
+ cellIdentity Integer 1857
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1858
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 98
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401051
+ userLabel String ExternalGsmCell-1858
+ cellIdentity Integer 1858
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1859
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 101
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401052
+ userLabel String ExternalGsmCell-1859
+ cellIdentity Integer 1859
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1860
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 104
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401053
+ userLabel String ExternalGsmCell-1860
+ cellIdentity Integer 1860
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1861
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 107
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401054
+ userLabel String ExternalGsmCell-1861
+ cellIdentity Integer 1861
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1862
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 110
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401055
+ userLabel String ExternalGsmCell-1862
+ cellIdentity Integer 1862
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1863
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 113
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401056
+ userLabel String ExternalGsmCell-1863
+ cellIdentity Integer 1863
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1864
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 116
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401057
+ userLabel String ExternalGsmCell-1864
+ cellIdentity Integer 1864
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1865
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 119
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401058
+ userLabel String ExternalGsmCell-1865
+ cellIdentity Integer 1865
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1866
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 122
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401059
+ userLabel String ExternalGsmCell-1866
+ cellIdentity Integer 1866
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1867
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 1
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401060
+ userLabel String ExternalGsmCell-1867
+ cellIdentity Integer 1867
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1868
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 4
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401061
+ userLabel String ExternalGsmCell-1868
+ cellIdentity Integer 1868
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1869
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 7
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401062
+ userLabel String ExternalGsmCell-1869
+ cellIdentity Integer 1869
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1870
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 10
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401063
+ userLabel String ExternalGsmCell-1870
+ cellIdentity Integer 1870
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1871
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 13
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401064
+ userLabel String ExternalGsmCell-1871
+ cellIdentity Integer 1871
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1872
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 16
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401065
+ userLabel String ExternalGsmCell-1872
+ cellIdentity Integer 1872
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1873
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 19
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401066
+ userLabel String ExternalGsmCell-1873
+ cellIdentity Integer 1873
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1874
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 22
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401067
+ userLabel String ExternalGsmCell-1874
+ cellIdentity Integer 1874
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1875
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 25
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401068
+ userLabel String ExternalGsmCell-1875
+ cellIdentity Integer 1875
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1876
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 28
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401069
+ userLabel String ExternalGsmCell-1876
+ cellIdentity Integer 1876
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1877
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 31
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401070
+ userLabel String ExternalGsmCell-1877
+ cellIdentity Integer 1877
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1878
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 34
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401071
+ userLabel String ExternalGsmCell-1878
+ cellIdentity Integer 1878
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1879
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 37
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401072
+ userLabel String ExternalGsmCell-1879
+ cellIdentity Integer 1879
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1880
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 40
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401073
+ userLabel String ExternalGsmCell-1880
+ cellIdentity Integer 1880
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1881
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 43
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401074
+ userLabel String ExternalGsmCell-1881
+ cellIdentity Integer 1881
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1882
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 46
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401075
+ userLabel String ExternalGsmCell-1882
+ cellIdentity Integer 1882
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1883
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 49
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401076
+ userLabel String ExternalGsmCell-1883
+ cellIdentity Integer 1883
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1884
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 52
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401077
+ userLabel String ExternalGsmCell-1884
+ cellIdentity Integer 1884
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1885
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 55
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401078
+ userLabel String ExternalGsmCell-1885
+ cellIdentity Integer 1885
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1886
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 58
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401079
+ userLabel String ExternalGsmCell-1886
+ cellIdentity Integer 1886
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1887
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 61
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401080
+ userLabel String ExternalGsmCell-1887
+ cellIdentity Integer 1887
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1888
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 64
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401081
+ userLabel String ExternalGsmCell-1888
+ cellIdentity Integer 1888
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1889
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 67
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401082
+ userLabel String ExternalGsmCell-1889
+ cellIdentity Integer 1889
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1890
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 70
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401083
+ userLabel String ExternalGsmCell-1890
+ cellIdentity Integer 1890
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1891
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 73
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401084
+ userLabel String ExternalGsmCell-1891
+ cellIdentity Integer 1891
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1892
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 76
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401085
+ userLabel String ExternalGsmCell-1892
+ cellIdentity Integer 1892
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1893
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 79
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401086
+ userLabel String ExternalGsmCell-1893
+ cellIdentity Integer 1893
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1894
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 82
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401087
+ userLabel String ExternalGsmCell-1894
+ cellIdentity Integer 1894
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1895
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 85
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401088
+ userLabel String ExternalGsmCell-1895
+ cellIdentity Integer 1895
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1896
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 88
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401089
+ userLabel String ExternalGsmCell-1896
+ cellIdentity Integer 1896
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1897
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 91
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401090
+ userLabel String ExternalGsmCell-1897
+ cellIdentity Integer 1897
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1898
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 94
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401091
+ userLabel String ExternalGsmCell-1898
+ cellIdentity Integer 1898
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1899
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 97
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401092
+ userLabel String ExternalGsmCell-1899
+ cellIdentity Integer 1899
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1900
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 100
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401093
+ userLabel String ExternalGsmCell-1900
+ cellIdentity Integer 1900
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1901
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 103
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401094
+ userLabel String ExternalGsmCell-1901
+ cellIdentity Integer 1901
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1902
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 106
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401095
+ userLabel String ExternalGsmCell-1902
+ cellIdentity Integer 1902
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1903
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 109
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401096
+ userLabel String ExternalGsmCell-1903
+ cellIdentity Integer 1903
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1904
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 112
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401097
+ userLabel String ExternalGsmCell-1904
+ cellIdentity Integer 1904
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1905
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 115
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401098
+ userLabel String ExternalGsmCell-1905
+ cellIdentity Integer 1905
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1906
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 118
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401099
+ userLabel String ExternalGsmCell-1906
+ cellIdentity Integer 1906
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1907
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 121
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401100
+ userLabel String ExternalGsmCell-1907
+ cellIdentity Integer 1907
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1908
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 124
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401101
+ userLabel String ExternalGsmCell-1908
+ cellIdentity Integer 1908
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1909
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 3
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401102
+ userLabel String ExternalGsmCell-1909
+ cellIdentity Integer 1909
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1910
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 6
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401103
+ userLabel String ExternalGsmCell-1910
+ cellIdentity Integer 1910
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1911
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 9
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401104
+ userLabel String ExternalGsmCell-1911
+ cellIdentity Integer 1911
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1912
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 12
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401105
+ userLabel String ExternalGsmCell-1912
+ cellIdentity Integer 1912
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1913
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 15
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401106
+ userLabel String ExternalGsmCell-1913
+ cellIdentity Integer 1913
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1914
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 18
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401107
+ userLabel String ExternalGsmCell-1914
+ cellIdentity Integer 1914
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1915
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 21
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401108
+ userLabel String ExternalGsmCell-1915
+ cellIdentity Integer 1915
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1916
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 24
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401109
+ userLabel String ExternalGsmCell-1916
+ cellIdentity Integer 1916
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1917
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 27
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401110
+ userLabel String ExternalGsmCell-1917
+ cellIdentity Integer 1917
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1918
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 30
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401111
+ userLabel String ExternalGsmCell-1918
+ cellIdentity Integer 1918
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1919
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 33
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401112
+ userLabel String ExternalGsmCell-1919
+ cellIdentity Integer 1919
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1920
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 36
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401113
+ userLabel String ExternalGsmCell-1920
+ cellIdentity Integer 1920
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1921
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 39
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401114
+ userLabel String ExternalGsmCell-1921
+ cellIdentity Integer 1921
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1922
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 42
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401115
+ userLabel String ExternalGsmCell-1922
+ cellIdentity Integer 1922
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1923
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 45
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401116
+ userLabel String ExternalGsmCell-1923
+ cellIdentity Integer 1923
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1924
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 48
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401117
+ userLabel String ExternalGsmCell-1924
+ cellIdentity Integer 1924
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1925
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 51
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401118
+ userLabel String ExternalGsmCell-1925
+ cellIdentity Integer 1925
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1926
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 54
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401119
+ userLabel String ExternalGsmCell-1926
+ cellIdentity Integer 1926
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1927
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 57
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401120
+ userLabel String ExternalGsmCell-1927
+ cellIdentity Integer 1927
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1928
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 60
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401121
+ userLabel String ExternalGsmCell-1928
+ cellIdentity Integer 1928
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1929
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 63
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401122
+ userLabel String ExternalGsmCell-1929
+ cellIdentity Integer 1929
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1930
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 66
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401123
+ userLabel String ExternalGsmCell-1930
+ cellIdentity Integer 1930
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1931
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 69
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401124
+ userLabel String ExternalGsmCell-1931
+ cellIdentity Integer 1931
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1932
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 72
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401125
+ userLabel String ExternalGsmCell-1932
+ cellIdentity Integer 1932
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1933
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 75
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401126
+ userLabel String ExternalGsmCell-1933
+ cellIdentity Integer 1933
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1934
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 78
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401127
+ userLabel String ExternalGsmCell-1934
+ cellIdentity Integer 1934
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1935
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 81
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401128
+ userLabel String ExternalGsmCell-1935
+ cellIdentity Integer 1935
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1936
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 84
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401129
+ userLabel String ExternalGsmCell-1936
+ cellIdentity Integer 1936
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1937
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 87
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401130
+ userLabel String ExternalGsmCell-1937
+ cellIdentity Integer 1937
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1938
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 90
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401131
+ userLabel String ExternalGsmCell-1938
+ cellIdentity Integer 1938
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1939
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 93
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401132
+ userLabel String ExternalGsmCell-1939
+ cellIdentity Integer 1939
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1940
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 96
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401133
+ userLabel String ExternalGsmCell-1940
+ cellIdentity Integer 1940
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1941
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 99
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401134
+ userLabel String ExternalGsmCell-1941
+ cellIdentity Integer 1941
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1942
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 102
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401135
+ userLabel String ExternalGsmCell-1942
+ cellIdentity Integer 1942
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1943
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 105
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401136
+ userLabel String ExternalGsmCell-1943
+ cellIdentity Integer 1943
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1944
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 108
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401137
+ userLabel String ExternalGsmCell-1944
+ cellIdentity Integer 1944
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1945
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 111
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401138
+ userLabel String ExternalGsmCell-1945
+ cellIdentity Integer 1945
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1946
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 114
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401139
+ userLabel String ExternalGsmCell-1946
+ cellIdentity Integer 1946
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1947
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 117
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401140
+ userLabel String ExternalGsmCell-1947
+ cellIdentity Integer 1947
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1948
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 120
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401141
+ userLabel String ExternalGsmCell-1948
+ cellIdentity Integer 1948
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1949
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 123
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401142
+ userLabel String ExternalGsmCell-1949
+ cellIdentity Integer 1949
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1950
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 2
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401143
+ userLabel String ExternalGsmCell-1950
+ cellIdentity Integer 1950
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1951
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 5
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401144
+ userLabel String ExternalGsmCell-1951
+ cellIdentity Integer 1951
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1952
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 8
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401145
+ userLabel String ExternalGsmCell-1952
+ cellIdentity Integer 1952
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1953
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 11
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401146
+ userLabel String ExternalGsmCell-1953
+ cellIdentity Integer 1953
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1954
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 14
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401147
+ userLabel String ExternalGsmCell-1954
+ cellIdentity Integer 1954
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1955
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 17
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401148
+ userLabel String ExternalGsmCell-1955
+ cellIdentity Integer 1955
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1956
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 20
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401149
+ userLabel String ExternalGsmCell-1956
+ cellIdentity Integer 1956
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1957
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 23
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401150
+ userLabel String ExternalGsmCell-1957
+ cellIdentity Integer 1957
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1958
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 26
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401151
+ userLabel String ExternalGsmCell-1958
+ cellIdentity Integer 1958
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1959
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 29
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401152
+ userLabel String ExternalGsmCell-1959
+ cellIdentity Integer 1959
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1960
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 32
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401153
+ userLabel String ExternalGsmCell-1960
+ cellIdentity Integer 1960
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1961
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 35
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401154
+ userLabel String ExternalGsmCell-1961
+ cellIdentity Integer 1961
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1962
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 38
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401155
+ userLabel String ExternalGsmCell-1962
+ cellIdentity Integer 1962
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1963
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 41
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401156
+ userLabel String ExternalGsmCell-1963
+ cellIdentity Integer 1963
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1964
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 44
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401157
+ userLabel String ExternalGsmCell-1964
+ cellIdentity Integer 1964
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1965
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 47
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401158
+ userLabel String ExternalGsmCell-1965
+ cellIdentity Integer 1965
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1966
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 50
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401159
+ userLabel String ExternalGsmCell-1966
+ cellIdentity Integer 1966
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1967
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 53
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401160
+ userLabel String ExternalGsmCell-1967
+ cellIdentity Integer 1967
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1968
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 56
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401161
+ userLabel String ExternalGsmCell-1968
+ cellIdentity Integer 1968
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1969
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 59
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401162
+ userLabel String ExternalGsmCell-1969
+ cellIdentity Integer 1969
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1970
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 62
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401163
+ userLabel String ExternalGsmCell-1970
+ cellIdentity Integer 1970
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1971
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 65
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401164
+ userLabel String ExternalGsmCell-1971
+ cellIdentity Integer 1971
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1972
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 68
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401165
+ userLabel String ExternalGsmCell-1972
+ cellIdentity Integer 1972
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1973
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 71
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401166
+ userLabel String ExternalGsmCell-1973
+ cellIdentity Integer 1973
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1974
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 74
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401167
+ userLabel String ExternalGsmCell-1974
+ cellIdentity Integer 1974
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1975
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 77
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401168
+ userLabel String ExternalGsmCell-1975
+ cellIdentity Integer 1975
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1976
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 80
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401169
+ userLabel String ExternalGsmCell-1976
+ cellIdentity Integer 1976
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1977
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 83
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401170
+ userLabel String ExternalGsmCell-1977
+ cellIdentity Integer 1977
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1978
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 86
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401171
+ userLabel String ExternalGsmCell-1978
+ cellIdentity Integer 1978
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1979
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 89
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401172
+ userLabel String ExternalGsmCell-1979
+ cellIdentity Integer 1979
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1980
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 92
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401173
+ userLabel String ExternalGsmCell-1980
+ cellIdentity Integer 1980
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1981
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 95
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401174
+ userLabel String ExternalGsmCell-1981
+ cellIdentity Integer 1981
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1982
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 98
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401175
+ userLabel String ExternalGsmCell-1982
+ cellIdentity Integer 1982
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1983
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 101
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401176
+ userLabel String ExternalGsmCell-1983
+ cellIdentity Integer 1983
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1984
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 104
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401177
+ userLabel String ExternalGsmCell-1984
+ cellIdentity Integer 1984
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1985
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 107
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401178
+ userLabel String ExternalGsmCell-1985
+ cellIdentity Integer 1985
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1986
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 110
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401179
+ userLabel String ExternalGsmCell-1986
+ cellIdentity Integer 1986
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1987
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 113
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401180
+ userLabel String ExternalGsmCell-1987
+ cellIdentity Integer 1987
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1988
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 116
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401181
+ userLabel String ExternalGsmCell-1988
+ cellIdentity Integer 1988
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1989
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 119
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401182
+ userLabel String ExternalGsmCell-1989
+ cellIdentity Integer 1989
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1990
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 122
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401183
+ userLabel String ExternalGsmCell-1990
+ cellIdentity Integer 1990
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1991
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 1
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401184
+ userLabel String ExternalGsmCell-1991
+ cellIdentity Integer 1991
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1992
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 4
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401185
+ userLabel String ExternalGsmCell-1992
+ cellIdentity Integer 1992
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1993
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 7
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401186
+ userLabel String ExternalGsmCell-1993
+ cellIdentity Integer 1993
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1994
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 10
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401187
+ userLabel String ExternalGsmCell-1994
+ cellIdentity Integer 1994
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1995
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 13
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401188
+ userLabel String ExternalGsmCell-1995
+ cellIdentity Integer 1995
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1996
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 16
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401189
+ userLabel String ExternalGsmCell-1996
+ cellIdentity Integer 1996
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1997
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 19
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401190
+ userLabel String ExternalGsmCell-1997
+ cellIdentity Integer 1997
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1998
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 22
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401191
+ userLabel String ExternalGsmCell-1998
+ cellIdentity Integer 1998
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 1999
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 25
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401192
+ userLabel String ExternalGsmCell-1999
+ cellIdentity Integer 1999
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2000
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 28
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401193
+ userLabel String ExternalGsmCell-2000
+ cellIdentity Integer 2000
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2001
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 31
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401194
+ userLabel String ExternalGsmCell-2001
+ cellIdentity Integer 2001
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2002
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 34
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401195
+ userLabel String ExternalGsmCell-2002
+ cellIdentity Integer 2002
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2003
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 37
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401196
+ userLabel String ExternalGsmCell-2003
+ cellIdentity Integer 2003
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2004
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 40
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401197
+ userLabel String ExternalGsmCell-2004
+ cellIdentity Integer 2004
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2005
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 43
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401198
+ userLabel String ExternalGsmCell-2005
+ cellIdentity Integer 2005
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2006
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 10
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 46
+ bandIndicator Integer 2
+ ExternalGsmCellId String F401199
+ userLabel String ExternalGsmCell-2006
+ cellIdentity Integer 2006
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2007
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 49
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500000
+ userLabel String ExternalGsmCell-2007
+ cellIdentity Integer 2007
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2008
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 52
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500001
+ userLabel String ExternalGsmCell-2008
+ cellIdentity Integer 2008
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2009
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 55
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500002
+ userLabel String ExternalGsmCell-2009
+ cellIdentity Integer 2009
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2010
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 58
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500003
+ userLabel String ExternalGsmCell-2010
+ cellIdentity Integer 2010
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2011
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 61
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500004
+ userLabel String ExternalGsmCell-2011
+ cellIdentity Integer 2011
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2012
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 64
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500005
+ userLabel String ExternalGsmCell-2012
+ cellIdentity Integer 2012
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2013
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 67
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500006
+ userLabel String ExternalGsmCell-2013
+ cellIdentity Integer 2013
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2014
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 70
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500007
+ userLabel String ExternalGsmCell-2014
+ cellIdentity Integer 2014
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2015
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 73
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500008
+ userLabel String ExternalGsmCell-2015
+ cellIdentity Integer 2015
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2016
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 76
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500009
+ userLabel String ExternalGsmCell-2016
+ cellIdentity Integer 2016
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2017
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 79
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500010
+ userLabel String ExternalGsmCell-2017
+ cellIdentity Integer 2017
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2018
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 82
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500011
+ userLabel String ExternalGsmCell-2018
+ cellIdentity Integer 2018
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2019
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 85
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500012
+ userLabel String ExternalGsmCell-2019
+ cellIdentity Integer 2019
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2020
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 88
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500013
+ userLabel String ExternalGsmCell-2020
+ cellIdentity Integer 2020
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2021
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 91
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500014
+ userLabel String ExternalGsmCell-2021
+ cellIdentity Integer 2021
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2022
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 94
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500015
+ userLabel String ExternalGsmCell-2022
+ cellIdentity Integer 2022
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2023
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 97
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500016
+ userLabel String ExternalGsmCell-2023
+ cellIdentity Integer 2023
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2024
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 100
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500017
+ userLabel String ExternalGsmCell-2024
+ cellIdentity Integer 2024
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2025
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 103
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500018
+ userLabel String ExternalGsmCell-2025
+ cellIdentity Integer 2025
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2026
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 106
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500019
+ userLabel String ExternalGsmCell-2026
+ cellIdentity Integer 2026
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2027
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 109
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500020
+ userLabel String ExternalGsmCell-2027
+ cellIdentity Integer 2027
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2028
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 112
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500021
+ userLabel String ExternalGsmCell-2028
+ cellIdentity Integer 2028
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2029
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 115
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500022
+ userLabel String ExternalGsmCell-2029
+ cellIdentity Integer 2029
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2030
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 118
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500023
+ userLabel String ExternalGsmCell-2030
+ cellIdentity Integer 2030
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2031
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 121
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500024
+ userLabel String ExternalGsmCell-2031
+ cellIdentity Integer 2031
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2032
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 124
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500025
+ userLabel String ExternalGsmCell-2032
+ cellIdentity Integer 2032
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2033
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 3
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500026
+ userLabel String ExternalGsmCell-2033
+ cellIdentity Integer 2033
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2034
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 6
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500027
+ userLabel String ExternalGsmCell-2034
+ cellIdentity Integer 2034
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2035
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 9
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500028
+ userLabel String ExternalGsmCell-2035
+ cellIdentity Integer 2035
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2036
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 12
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500029
+ userLabel String ExternalGsmCell-2036
+ cellIdentity Integer 2036
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2037
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 15
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500030
+ userLabel String ExternalGsmCell-2037
+ cellIdentity Integer 2037
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2038
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 18
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500031
+ userLabel String ExternalGsmCell-2038
+ cellIdentity Integer 2038
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2039
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 21
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500032
+ userLabel String ExternalGsmCell-2039
+ cellIdentity Integer 2039
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2040
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 24
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500033
+ userLabel String ExternalGsmCell-2040
+ cellIdentity Integer 2040
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2041
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 27
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500034
+ userLabel String ExternalGsmCell-2041
+ cellIdentity Integer 2041
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2042
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 30
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500035
+ userLabel String ExternalGsmCell-2042
+ cellIdentity Integer 2042
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2043
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 33
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500036
+ userLabel String ExternalGsmCell-2043
+ cellIdentity Integer 2043
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2044
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 36
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500037
+ userLabel String ExternalGsmCell-2044
+ cellIdentity Integer 2044
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2045
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 39
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500038
+ userLabel String ExternalGsmCell-2045
+ cellIdentity Integer 2045
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2046
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 42
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500039
+ userLabel String ExternalGsmCell-2046
+ cellIdentity Integer 2046
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2047
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 45
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500040
+ userLabel String ExternalGsmCell-2047
+ cellIdentity Integer 2047
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2048
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 48
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500041
+ userLabel String ExternalGsmCell-2048
+ cellIdentity Integer 2048
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2049
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 51
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500042
+ userLabel String ExternalGsmCell-2049
+ cellIdentity Integer 2049
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2050
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 54
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500043
+ userLabel String ExternalGsmCell-2050
+ cellIdentity Integer 2050
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2051
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 57
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500044
+ userLabel String ExternalGsmCell-2051
+ cellIdentity Integer 2051
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2052
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 60
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500045
+ userLabel String ExternalGsmCell-2052
+ cellIdentity Integer 2052
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2053
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 63
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500046
+ userLabel String ExternalGsmCell-2053
+ cellIdentity Integer 2053
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2054
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 66
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500047
+ userLabel String ExternalGsmCell-2054
+ cellIdentity Integer 2054
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2055
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 69
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500048
+ userLabel String ExternalGsmCell-2055
+ cellIdentity Integer 2055
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2056
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 72
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500049
+ userLabel String ExternalGsmCell-2056
+ cellIdentity Integer 2056
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2057
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 75
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500050
+ userLabel String ExternalGsmCell-2057
+ cellIdentity Integer 2057
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2058
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 78
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500051
+ userLabel String ExternalGsmCell-2058
+ cellIdentity Integer 2058
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2059
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 81
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500052
+ userLabel String ExternalGsmCell-2059
+ cellIdentity Integer 2059
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2060
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 2
+ bcchFrequency Integer 84
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500053
+ userLabel String ExternalGsmCell-2060
+ cellIdentity Integer 2060
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2061
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 87
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500054
+ userLabel String ExternalGsmCell-2061
+ cellIdentity Integer 2061
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2062
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 90
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500055
+ userLabel String ExternalGsmCell-2062
+ cellIdentity Integer 2062
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2063
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 93
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500056
+ userLabel String ExternalGsmCell-2063
+ cellIdentity Integer 2063
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2064
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 96
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500057
+ userLabel String ExternalGsmCell-2064
+ cellIdentity Integer 2064
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2065
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 99
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500058
+ userLabel String ExternalGsmCell-2065
+ cellIdentity Integer 2065
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2066
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 3
+ bcchFrequency Integer 102
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500059
+ userLabel String ExternalGsmCell-2066
+ cellIdentity Integer 2066
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2067
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 105
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500060
+ userLabel String ExternalGsmCell-2067
+ cellIdentity Integer 2067
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2068
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 108
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500061
+ userLabel String ExternalGsmCell-2068
+ cellIdentity Integer 2068
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2069
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 111
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500062
+ userLabel String ExternalGsmCell-2069
+ cellIdentity Integer 2069
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2070
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 114
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500063
+ userLabel String ExternalGsmCell-2070
+ cellIdentity Integer 2070
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2071
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 117
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500064
+ userLabel String ExternalGsmCell-2071
+ cellIdentity Integer 2071
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2072
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 4
+ bcchFrequency Integer 120
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500065
+ userLabel String ExternalGsmCell-2072
+ cellIdentity Integer 2072
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2073
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 123
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500066
+ userLabel String ExternalGsmCell-2073
+ cellIdentity Integer 2073
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2074
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 2
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500067
+ userLabel String ExternalGsmCell-2074
+ cellIdentity Integer 2074
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2075
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 5
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500068
+ userLabel String ExternalGsmCell-2075
+ cellIdentity Integer 2075
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2076
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 8
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500069
+ userLabel String ExternalGsmCell-2076
+ cellIdentity Integer 2076
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2077
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 11
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500070
+ userLabel String ExternalGsmCell-2077
+ cellIdentity Integer 2077
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2078
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 5
+ bcchFrequency Integer 14
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500071
+ userLabel String ExternalGsmCell-2078
+ cellIdentity Integer 2078
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2079
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 17
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500072
+ userLabel String ExternalGsmCell-2079
+ cellIdentity Integer 2079
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2080
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 20
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500073
+ userLabel String ExternalGsmCell-2080
+ cellIdentity Integer 2080
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2081
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 23
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500074
+ userLabel String ExternalGsmCell-2081
+ cellIdentity Integer 2081
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2082
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 26
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500075
+ userLabel String ExternalGsmCell-2082
+ cellIdentity Integer 2082
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2083
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 29
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500076
+ userLabel String ExternalGsmCell-2083
+ cellIdentity Integer 2083
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2084
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 6
+ bcchFrequency Integer 32
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500077
+ userLabel String ExternalGsmCell-2084
+ cellIdentity Integer 2084
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2085
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 35
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500078
+ userLabel String ExternalGsmCell-2085
+ cellIdentity Integer 2085
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2086
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 38
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500079
+ userLabel String ExternalGsmCell-2086
+ cellIdentity Integer 2086
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2087
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 41
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500080
+ userLabel String ExternalGsmCell-2087
+ cellIdentity Integer 2087
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2088
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 44
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500081
+ userLabel String ExternalGsmCell-2088
+ cellIdentity Integer 2088
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2089
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 47
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500082
+ userLabel String ExternalGsmCell-2089
+ cellIdentity Integer 2089
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2090
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 7
+ bcchFrequency Integer 50
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500083
+ userLabel String ExternalGsmCell-2090
+ cellIdentity Integer 2090
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2091
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 53
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500084
+ userLabel String ExternalGsmCell-2091
+ cellIdentity Integer 2091
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2092
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 56
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500085
+ userLabel String ExternalGsmCell-2092
+ cellIdentity Integer 2092
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2093
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 59
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500086
+ userLabel String ExternalGsmCell-2093
+ cellIdentity Integer 2093
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2094
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 62
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500087
+ userLabel String ExternalGsmCell-2094
+ cellIdentity Integer 2094
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2095
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 65
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500088
+ userLabel String ExternalGsmCell-2095
+ cellIdentity Integer 2095
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2096
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 0
+ bcchFrequency Integer 68
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500089
+ userLabel String ExternalGsmCell-2096
+ cellIdentity Integer 2096
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2097
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 71
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500090
+ userLabel String ExternalGsmCell-2097
+ cellIdentity Integer 2097
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2098
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 74
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500091
+ userLabel String ExternalGsmCell-2098
+ cellIdentity Integer 2098
+)
+CREATE
+(
+  parent "ManagedElement=1,RncFunction=1,ExternalGsmNetwork=4"
+ identity 2099
+ moType ExternalGsmCell
+ exception none
+ nrOfAttributes 3
+ lac Integer 11
+ ncc Integer 3
+ bcc Integer 1
+ bcchFrequency Integer 77
+ bandIndicator Integer 2
+ ExternalGsmCellId String F500092
+ userLabel String ExternalGsmCell-2099
+ cellIdentity Integer 2099
+)
+//..../aOut1020createExtGsmCell_s.sh:RNC07 MAKING MO SCRIPT ended running at Thu Oct 27 06:17:17 IST 2016
+//

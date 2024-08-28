@@ -1,0 +1,5 @@
+.open RNCV71659x1-FT-MSRBS-16Bx3-RNC09
+.select RNC09MSRBS-V203
+.start 
+useattributecharacteristics:switch="off";
+kertayle:file="/netsim/simnet/wran_MSRBS/bin/.mo";

@@ -1,0 +1,26 @@
+#################################################################################################################################
+NOTE : Only parent MO files need to be given in the path else the counts will be very huge , RBS or MSRBS mo files are not needed.
+#################################################################################################################################
+Path of Mo files is /netsim/Mofile_Inspection/RNCs_Mos
+################################################################################################################################
+Below are the Relation Counts obtained from the Mo files in /netsim/Mofile_Inspection/RNCs_Mos path 
+
+Values are given combining all the data from RNC mo files which are needed for NRM builds
+################################################################################################################################
+
+ Total UtranCell count is 10299
+
+ Total Utran Relations Count is 452983
+
+ Total Eutran Relations Count is 37358
+
+ Total Gsm Relations count is 339867
+
+ Total Coverage Relations count is 30897
+
+################################################################################################################################
+
+All the required counts obtained, if the counts are not as needed for NRM, kindly make the changes in config.xml file and generate the Mo file again
+################################################################################################################################
+
+

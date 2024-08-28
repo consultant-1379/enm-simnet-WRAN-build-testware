@@ -1,0 +1,336 @@
+########################################################################################################################
+# Product Name         : SimNet ENM WRAN
+# Product Number       : CXP 903 6540
+# Sprint Drop          : 24.04
+# Script Base Revision : CXP 903 6540-1-21
+# # Repository           : https://gerrit.ericsson.se/#/admin/projects/OSS/com.ericsson.ci.simnet/enm-simnet-WRAN-build-testware
+########################################################################################################################
+# US/SNIPs/CRs/TRs/SNADs/SNAGs/ROLLBACK/EW
+# US = User Story
+# SNIP = SimNet Improvement Programme
+# CR = Change Request
+# SJ = SimNet Jira ticket
+# TR = Trouble Report for OSS-RC/ENM etc.
+# SNAD = SubNet Adapter
+# SNAG = Issue found by test
+# ROLLBACK = Issue requiring network functionailty rollback
+# EW = Emergency Workaround for an known issue
+#-0---------------------------------------------------------------
+#-----------------------------------------------------------------
+WRAN 24.04
+#-----------------------------------------------------------------
+# SJ - CXP 903 6540-1-21
+# SJ - NSS-46374
+#
+## modified Scripts:
+#             ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RNCST/aOut1050createUtranCell.sh
+#----------------------------------------------------------------
+WRAN 23.11
+# SJ - CXP 903 6540-1-20 - 23-June-2023 -znrvbia
+# SJ - NSS-44314
+#
+# modified Scripts:
+#               ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDG2Product.sh
+#-----------------------------------------------------------------
+WRAN 23.09
+##----------------------------------------------------------------
+## SJ - CXP 903 6540-1-19 - 11-05-2023 -zmogsiv
+## SJ - NSS-43310
+##
+## modified Scripts:
+#               ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/unit_tests/ProductData.env
+#               ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/jar/1.8kconfig.xml
+#               ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/dat/ProductData.env
+###----------------------------------------------------------------
+WRAN 23.02
+#-----------------------------------------------------------------
+## SJ - CXP 903 6450-1-18 - 30-11-2022 -zachaja
+## SJ - NSS-41460
+#
+## New Scripts Added:
+#                  ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/unit_tests/Check_EbsFunction.sh
+#                  ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/RBSBaseSimName.sh
+#
+##
+## modified:
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDG2Product.sh
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/startBuild.sh
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDataParallel.sh
+
+#----------------------------------------------------------------
+WRAN 23.01
+#----------------------------------------------------------------
+# SJ - CXP 903 6540-1-17 - 15-11-2022 -zmogsiv
+# SJ - NSS-41456
+#
+# modified Scripts:
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDG2Product.sh
+##----------------------------------------------------------------
+WRAN 22.13
+##----------------------------------------------------------------
+## SJ - CXP 903 6540-1-16 - 12-08-2022 -zmogsiv
+## SJ - NSS-36962
+##
+## modified:
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/unit_tests/startRunnerUnitTest.sh
+#----------------------------------------------------------------
+WRAN 22.02
+#----------------------------------------------------------------
+## SJ - CXP 903 6540-1-15 - 17-12-2021 -zhainic
+## SJ - NSS-37850
+##
+## modified:   
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/
+#----------------------------------------------------------------
+
+WRAN 21.14
+##---------------------------------------------------------------
+## SJ - CXP 903 6540-1-14 - 15-08-2021 -zchianu
+## SJ - NSS-36764
+##
+## New Scripts added:
+##     ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/AssignIp_AsperVM.sh
+##
+## Modified Scripts:
+#       modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/ControlPlaneMo.sh
+##	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/Implement_Scanner.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/1120createsubrack2.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/1126createAtmPort.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/1130createswitchcore.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/1140createSwitchFab.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/1180createTNMOs.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/3000createRBS_Direct_Connection_MUB_Crossconnected.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/9162createSlot.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/9190createPlugInUnits.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/Test_1000createRadioNetworkForRBS.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/Test_1110createSubrackSlot.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/aOut1170createRbsLocalCell.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/aOut1202createCarrier.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/aOut1241createCabinet_multi.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RBSST/createCabinet.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RNCST/1001createRadioNetworkForRNC.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RNCST/1380createTNMOs.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RNCST/1400createIpAtmLink.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/RNCST/3000createRNC_Direct_Connection_MUB_Crossconnected.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/SecondSwInventory.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/UIanalyser2.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/Utrancelldatafile.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createCounters.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createDataParallel.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createRBSdata.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createRBSproductdata.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createRNC_Transport_Data.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createRNCdata.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createRNCproductdata.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createSimulationIPParallel.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createWranSimsParallel.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/generateSummary.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/rbsid.sh
+##	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/saveAndCompressSimulation.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/setRNC_JAR.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/set_RNCSubrack.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/ControlPlaneMo.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/DG2ST/1000createRadioNetworkForDG2.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/DG2ST/aOut1241_Rbs6k_createCabinet_Mix.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/Implement_Scanner.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/RNCST/1001createRadioNetworkForRNC.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/RNCST/1380createTNMOs.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/RNCST/1400createIpAtmLink.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/RNCST/3000createRNC_Direct_Connection_MUB_Crossconnected.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/UtranCellDataFile.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createCounters.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDG2Product.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDG2data.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDataParallel.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createRNC_Transport_Data.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createRNCdata.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createRNCproductdata.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createSimulationIPParallel.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createWranSimsParallel.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/generateSummary.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/mixedModeDg2.pl
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/mixedmodegrat.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/saveAndCompressSimulation.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/setRNC_JAR.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/set_OAMAccessPoint.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/set_RNCSubrack.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/unrelateNEs.sh
+#	modified:   ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/utilityFunctions.sh
+
+#----------------------------------------------------------------------------------------------------------------------------------------
+WRAN 21.11
+#----------------------------------------------------------------
+## SJ - CXP 903 6540-1-13 - 23-06-2021 -zsarkav
+## SJ - NSS-35324
+##
+## New Scripts added:
+##        ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/LicenseMo.sh
+## modified:   
+#          ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createUtranCell_DATA_For_WRAN5k.sh
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/jar/1.8kconfig.xml
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/dat/1.8K.env
+#         ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/startBuild.sh
+#----------------------------------------------------------------
+WRAN 21.08
+##---------------------------------------------------------------
+## SJ - CXP 903 6540-1-12 - 16-04-2021 -zchianu
+## SJ - NSS-34525
+##
+## New Scripts added:
+##        ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/ControlPlaneMo.sh
+##        ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/ControlPlaneMo.sh
+## Modified Scripts :
+##       ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createDataParallel.sh
+##       ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createDataParallel.sh
+##       ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/startBuild.sh
+#----------------------------------------------------------------
+WRAN 21.08
+##---------------------------------------------------------------
+## SJ - CXP 903 6540-1-11 - 14-04-2021 -zchianu
+## SJ - NSS-31825
+##
+## New Script added:
+##        ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/PreCheckRelations_beforeBuild.sh
+#----------------------------------------------------------------
+WRAN 21.06
+##---------------------------------------------------------------
+## SJ - CXP 903 6540-1-10 - 17-02-2021 -zchianu
+## SJ - NSS-34509
+##
+## Scripts Modified:
+##        ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/createUtranCell_DATA_For_WRAN5k.sh
+##	  ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/jar/1.8kconfig.xml
+##	  ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/bin/startBuild.sh
+##	  ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran/dat/1.8K_RBS.env
+##        ERICTAFenmsimnetwranbuild_CXP9036540/src/main/resources/scripts/wran_MSRBS/bin/createUtranCell_DATA_For_WRAN15k.sh
+##        
+#----------------------------------------------------------------
+WRAN 21.04
+##---------------------------------------------------------------
+## SJ - CXP 903 6540-1-9 - 18-01-2021 -zchianu
+## SJ - NSS-33673
+##
+## Scripts Modified:
+##         scripts/wran/bin/UIanalyser2.sh
+##         scripts/wran/bin/createRBSproductdata.sh
+##         scripts/wran/bin/set_subrackProduct.sh
+##         scripts/wran_MSRBS/bin/makingmo.sh   
+
+
+#----------------------------------------------------------------
+WRAN 20.11
+##----------------------------------------------------------------
+## SJ - CXP 903 6540-1-8 - 27-06-2020 -zsujmad
+## SJ - NSS-31187
+##
+## Scripts Modified:
+##      data/ScriptExecutionCommandsData.csv
+##      scripts/wran/bin/Utrancelldatafile.sh
+##      scripts/wran/bin/createUtranCell_DATA_For_WRAN60k.sh
+##      scripts/wran/bin/startBuild.sh
+##      scripts/wran_MSRBS/bin/MSRBSUTRAN.sh
+##      scripts/wran_MSRBS/bin/UtranCellDataFile.sh
+##      scripts/wran_MSRBS/bin/makingmo.sh
+##      ERICTAFenmsimnetwranbuild_operators/src/main/java/com/ericsson/ci/simnet/test/operators/CLIScriptExecutionOperator.java
+## Scripts Added:
+##      scripts/wran/bin/createUtranCell_DATA_For_WRAN2k.sh
+##      scripts/wran/bin/createUtranCell_DATA_For_WRAN_NRM3.sh
+##      scripts/wran/bin/jar/2kconfig.xml
+##      scripts/wran/bin/jar/LargeRNC_5kconfig.xml
+##      scripts/wran/bin/jar/NRM3config.xml
+##      scripts/wran/bin/jar/NRM4config.xml
+##      scripts/wran/bin/triggerBuild.sh
+##      scripts/wran/dat/2K_PICO.env
+##      scripts/wran/dat/2K_RBS.env
+##      scripts/wran/dat/LargeRNC_5k.env
+##      scripts/wran/dat/NRM3.env
+##      scripts/wran/dat/NRM4.env
+##      scripts/wran/dat/ProductData.env
+##      scripts/wran_MSRBS/bin/createUtranCell_DATA_For_WRAN2k.sh
+##      scripts/wran_MSRBS/bin/createUtranCell_DATA_For_WRAN_NRM3.sh
+##      scripts/wran_MSRBS/bin/jar/2kconfig.xml
+##      scripts/wran_MSRBS/bin/jar/NRM3_DG2config.xml
+##      scripts/wran_MSRBS/bin/jar/NRM4_DG2config.xml
+##      scripts/wran_MSRBS/dat/2K.env
+##      scripts/wran_MSRBS/dat/NRM3_DG2.env
+##      scripts/wran_MSRBS/dat/NRM4_DG2.env
+#----------------------------------------------------------------
+WRAN 20.11
+##----------------------------------------------------------------
+## SJ - CXP 903 6540-1-7 - 10-06-2020 -zyamkan
+## SJ - NSS-31245
+##
+## Scripts Modified:
+###     /wran_MSRBS/bin/createDG2Product.sh
+#----------------------------------------------------------------
+WRAN 20.07
+#----------------------------------------------------------------
+# SJ - CXP 903 6540-1-6 - 02-04-2020 -zyamkan
+# SJ - NSS-27983
+#
+# Scripts Modified:
+#      ERICTAFenmsimnetwranbuild_operators/src/main/java/com/ericsson/ci/simnet/test/operators/UnitTestExecutionOperator.java
+# Scripts Added:
+#      scripts/unit_tests/pmFileLocation.sh
+#      data/pmFileLocation.csv
+#      taf_profiles/UT_FileLocation/datadriven.properties
+#      suites/pmFileLocationTestSuite.xml
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+WRAN 20.05
+#----------------------------------------------------------------
+### SJ - CXP 903 6540-1-5 - 21-02-2020 -zyamkan
+### SJ - NSS-29142
+###
+### Scripts Modified:
+###     /wran/bin/startBuild.sh
+##----------------------------------------------------------------
+## SJ - CXP 903 6540-1-4 - 20-02-2020 -zyamkan
+## SJ - NSS-29142
+##
+## Scripts Modified:
+##     /wran_MSRBS/bin/PmUnitTest.pl
+#----------------------------------------------------------------
+WRAN 20.02
+#----------------------------------------------------------------
+## SJ - CXP 903 6540-1-3 - 10/12/2019 -zyamkan
+## SJ - NSS-26915
+##
+## Scripts Modified:
+##     /wran/bin/startBuild.sh
+##     /wran_MSRBS/bin/createWranSimsParallel.sh
+##     /wran_MSRBS/bin/createSimulationIPParallel.sh
+##     /wran_MSRBS/bin/utilityFunctions.sh
+##     /wran_MSRBS/bin/Implement_Scanner.sh
+##     /wran/bin/Implement_Scanner.sh
+##
+## Scripts Added:
+##     /wran_MSRBS/lib/General.pm
+##     /wran_MSRBS/bin/PmUnitTest.pl
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+WRAN 19.7
+----------------------------------------------------------------
+# SJ - CXP 903 6540-1-2 - 26/11/2019 -zyamkan
+# SJ - NSS-27634
+#
+# Scripts Modified:
+#     /wran_MSRBS/dat/1.8K.env
+#     /wran_MSRBS/dat/15K.env
+#     /wran_MSRBS/dat/60KMSRBS.env
+#     /wran_MSRBS/dat/MixedMode.env
+#     /wran_MSRBS/bin/createDataParallel.sh
+#
+# Scripts Added:
+#     /wran_MSRBS/bin/set_OAMAccessPoint.sh
+----------------------------------------------------------------
+# SJ - CXP 903 6540-1-1 - 07/11/2019 -zchianu
+# SJ - NSS-27832
+#
+# Scripts Modified:
+#     /wran/bin/createDataParallel.sh
+
+# Scripts Added:
+#     /wran/bin/Updated_Cipher.sh
+----------------------------------------------------------------
+
